@@ -1,0 +1,30 @@
+
+RewriteEngine on
+
+# BEGIN WordPress
+# The directives (lines) between `BEGIN WordPress` and `END WordPress` are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /site/
+RewriteRule ^index\.php$ - [L]
+RewriteRule ^kreativ/?$ /site/wp-login.php [QSA,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /site/index.php [L]
+</IfModule>
+
+# END WordPress
+
+<Files wp-login.php>
+        order deny,allow
+        Deny from all
+whitelist IP address
+ allow from 130.105.85.125
+</Files>
+
+<Files "xmlrpc.php">
+Order Allow,Deny
+deny from all
+</Files>

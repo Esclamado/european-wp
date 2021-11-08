@@ -1,0 +1,27 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>EUROPEAN WELLNESS RETREAT</title>
+		<style>
+		
+		</style>
+		<style>
+		@media screen and (orientation:landscape) {
+			body { background: #fff;}
+			#tab { width: 800px; height: 100%;border: 0; }
+			#logo { width: 800px; border: 0; }
+		}
+		@media screen and (orientation:portrait) {
+			body { background: #fff;}
+			#tab { width: 80%; height: 100%;border: 0; }
+			#logo { width: 100%; border: 0; }
+		}
+		</style>
+		<meta name='viewport' content='width=device-width'>
+    </head>
+    <body><center>
+       <table id="tab"><tr><td vAlign="center">
+            <img src="EW-BRAND.png" id="logo" alt="EUROPEAN WELLNESS CENTRE"/></img></a>
+       </td></tr></table></center>
+    </body>
+</html>

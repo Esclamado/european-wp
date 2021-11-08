@@ -1,0 +1,537 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 01:13:30
+* VERSION: 1.4.3
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.23                                |7.2.34
+OS__________________: Linux                                 |WINNT
+CREATED_____________: 2021-09-10 05:24:43
+WP VERSION__________: 5.7.3
+DUP VERSION_________: 1.4.3
+DB__________________: 5.6.41
+DB TABLES___________: 22
+DB ROWS_____________: 4,338
+DB FILE SIZE________: 11.12MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.2.34 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.2.34
+DOC ROOT____________: "C:/xampp/htdocs/european"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/european/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/xampp/htdocs/european/20210901_europeanwellnessretreat_[HASH]_20210910052443_archive.zip"
+SIZE________________: 310.55MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/xampp/htdocs/european/20210901_europeanwellnessretreat_[HASH]_20210910052443_archive.zip"
+SIZE________________: 310.55MBFile timestamp set to Current: 2021-11-04 01:14:12
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 01:14:12 - RUNTIME: 41.7226 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 01:15:09
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTION CREATION___: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.14 -- Build Server: 5.6.41
+FILE SIZE:	dup-database__[HASH].sql (11.29MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE:	NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[C:/xampp/htdocs/european/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DB FUNCTIONS:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	212
+
+d7td68o_commentmeta: (0)
+d7td68o_comments: (0)
+d7td68o_duplicator_packages: (0)
+d7td68o_links: (0)
+d7td68o_options: (190)
+d7td68o_postmeta: (2466)
+d7td68o_posts: (781)
+d7td68o_sbi_instagram_feed_locator: (1)
+d7td68o_sbi_instagram_feeds_posts: (0)
+d7td68o_sbi_instagram_posts: (0)
+d7td68o_term_relationships: (51)
+d7td68o_term_taxonomy: (6)
+d7td68o_termmeta: (0)
+d7td68o_terms: (6)
+d7td68o_usermeta: (138)
+d7td68o_users: (3)
+d7td68o_yoast_indexable: (275)
+d7td68o_yoast_indexable_hierarchy: (228)
+d7td68o_yoast_migrations: (21)
+d7td68o_yoast_primary_term: (1)
+d7td68o_yoast_seo_links: (11)
+d7td68o_yoast_seo_meta: (130)
+Removed '31' cache/transient rows
+
+INSERT DATA RUNTIME: 1.3388 sec.
+STEP-2 COMPLETE @ 01:15:10 - RUNTIME: 1.3581 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 01:15:28
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "European Wellness Retreat"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home2/euwellness/public_html"
+path_new______________: "C:/xampp/htdocs/european"
+siteurl_______________: "http://localhost:8080/european"
+url_old_______________: "https://europeanwellnessretreat.com"
+url_new_______________: "http://localhost:8080/european"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "d7td68o_commentmeta"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "d7td68o_comments"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "d7td68o_duplicator_packages"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "d7td68o_links"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "d7td68o_options"_________________________________[ROWS:   190][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/euwellness/public_html" ===================> "C:/xampp/htdocs/european"
+	SEARCH  2:"\/home2\/euwellness\/public_html" ================> "C:\/xampp\/htdocs\/european"
+	SEARCH  3:"%2Fhome2%2Feuwellness%2Fpublic_html" =============> "C%3A%2Fxampp%2Fhtdocs%2Feuropean"
+	SEARCH  4:"\home2\euwellness\public_html" ===================> "C:/xampp/htdocs/european"
+	SEARCH  5:"\\home2\\euwellness\\public_html" ================> "C:\/xampp\/htdocs\/european"
+	SEARCH  6:"%5Chome2%5Ceuwellness%5Cpublic_html" =============> "C%3A%2Fxampp%2Fhtdocs%2Feuropean"
+	SEARCH  7:"//europeanwellnessretreat.com" ===================> "//localhost:8080/european"
+	SEARCH  8:"\/\/europeanwellnessretreat.com" =================> "\/\/localhost:8080\/european"
+	SEARCH  9:"%2F%2Feuropeanwellnessretreat.com" ===============> "%2F%2Flocalhost%3A8080%2Feuropean"
+	SEARCH 10:"//www.europeanwellnessretreat.com" ===============> "//localhost:8080/european"
+	SEARCH 11:"\/\/www.europeanwellnessretreat.com" =============> "\/\/localhost:8080\/european"
+	SEARCH 12:"%2F%2Fwww.europeanwellnessretreat.com" ===========> "%2F%2Flocalhost%3A8080%2Feuropean"
+	SEARCH 13:"https://localhost:8080/european" =================> "http://localhost:8080/european"
+	SEARCH 14:"https:\/\/localhost:8080\/european" ==============> "http:\/\/localhost:8080\/european"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8080%2Feuropean" =======> "http%3A%2F%2Flocalhost%3A8080%2Feuropean"
+
+EVALUATE TABLE: "d7td68o_postmeta"________________________________[ROWS:  2466][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/euwellness/public_html" ===================> "C:/xampp/htdocs/european"
+	SEARCH  2:"\/home2\/euwellness\/public_html" ================> "C:\/xampp\/htdocs\/european"
+	SEARCH  3:"%2Fhome2%2Feuwellness%2Fpublic_html" =============> "C%3A%2Fxampp%2Fhtdocs%2Feuropean"
+	SEARCH  4:"\home2\euwellness\public_html" ===================> "C:/xampp/htdocs/european"
+	SEARCH  5:"\\home2\\euwellness\\public_html" ================> "C:\/xampp\/htdocs\/european"
+	SEARCH  6:"%5Chome2%5Ceuwellness%5Cpublic_html" =============> "C%3A%2Fxampp%2Fhtdocs%2Feuropean"
+	SEARCH  7:"//europeanwellnessretreat.com" ===================> "//localhost:8080/european"
+	SEARCH  8:"\/\/europeanwellnessretreat.com" =================> "\/\/localhost:8080\/european"
+	SEARCH  9:"%2F%2Feuropeanwellnessretreat.com" ===============> "%2F%2Flocalhost%3A8080%2Feuropean"
+	SEARCH 10:"//www.europeanwellnessretreat.com" ===============> "//localhost:8080/european"
+	SEARCH 11:"\/\/www.europeanwellnessretreat.com" =============> "\/\/localhost:8080\/european"
+	SEARCH 12:"%2F%2Fwww.europeanwellnessretreat.com" ===========> "%2F%2Flocalhost%3A8080%2Feuropean"
+	SEARCH 13:"https://localhost:8080/european" =================> "http://localhost:8080/european"
+	SEARCH 14:"https:\/\/localhost:8080\/european" ==============> "http:\/\/localhost:8080\/european"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8080%2Feuropean" =======> "http%3A%2F%2Flocalhost%3A8080%2Feuropean"
+
+EVALUATE TABLE: "d7td68o_posts"___________________________________[ROWS:   781][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/euwellness/public_html" ===================> "C:/xampp/htdocs/european"
+	SEARCH  2:"\/home2\/euwellness\/public_html" ================> "C:\/xampp\/htdocs\/european"
+	SEARCH  3:"%2Fhome2%2Feuwellness%2Fpublic_html" =============> "C%3A%2Fxampp%2Fhtdocs%2Feuropean"
+	SEARCH  4:"\home2\euwellness\public_html" ===================> "C:/xampp/htdocs/european"
+	SEARCH  5:"\\home2\\euwellness\\public_html" ================> "C:\/xampp\/htdocs\/european"
+	SEARCH  6:"%5Chome2%5Ceuwellness%5Cpublic_html" =============> "C%3A%2Fxampp%2Fhtdocs%2Feuropean"
+	SEARCH  7:"//europeanwellnessretreat.com" ===================> "//localhost:8080/european"
+	SEARCH  8:"\/\/europeanwellnessretreat.com" =================> "\/\/localhost:8080\/european"
+	SEARCH  9:"%2F%2Feuropeanwellnessretreat.com" ===============> "%2F%2Flocalhost%3A8080%2Feuropean"
+	SEARCH 10:"//www.europeanwellnessretreat.com" ===============> "//localhost:8080/european"
+	SEARCH 11:"\/\/www.europeanwellnessretreat.com" =============> "\/\/localhost:8080\/european"
+	SEARCH 12:"%2F%2Fwww.europeanwellnessretreat.com" ===========> "%2F%2Flocalhost%3A8080%2Feuropean"
+	SEARCH 13:"https://localhost:8080/european" =================> "http://localhost:8080/european"
+	SEARCH 14:"https:\/\/localhost:8080\/european" ==============> "http:\/\/localhost:8080\/european"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8080%2Feuropean" =======> "http%3A%2F%2Flocalhost%3A8080%2Feuropean"
+
+EVALUATE TABLE: "d7td68o_sbi_instagram_feed_locator"______________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/euwellness/public_html" ===================> "C:/xampp/htdocs/european"
+	SEARCH  2:"\/home2\/euwellness\/public_html" ================> "C:\/xampp\/htdocs\/european"
+	SEARCH  3:"%2Fhome2%2Feuwellness%2Fpublic_html" =============> "C%3A%2Fxampp%2Fhtdocs%2Feuropean"
+	SEARCH  4:"\home2\euwellness\public_html" ===================> "C:/xampp/htdocs/european"
+	SEARCH  5:"\\home2\\euwellness\\public_html" ================> "C:\/xampp\/htdocs\/european"
+	SEARCH  6:"%5Chome2%5Ceuwellness%5Cpublic_html" =============> "C%3A%2Fxampp%2Fhtdocs%2Feuropean"
+	SEARCH  7:"//europeanwellnessretreat.com" ===================> "//localhost:8080/european"
+	SEARCH  8:"\/\/europeanwellnessretreat.com" =================> "\/\/localhost:8080\/european"
+	SEARCH  9:"%2F%2Feuropeanwellnessretreat.com" ===============> "%2F%2Flocalhost%3A8080%2Feuropean"
+	SEARCH 10:"//www.europeanwellnessretreat.com" ===============> "//localhost:8080/european"
+	SEARCH 11:"\/\/www.europeanwellnessretreat.com" =============> "\/\/localhost:8080\/european"
+	SEARCH 12:"%2F%2Fwww.europeanwellnessretreat.com" ===========> "%2F%2Flocalhost%3A8080%2Feuropean"
+	SEARCH 13:"https://localhost:8080/european" =================> "http://localhost:8080/european"
+	SEARCH 14:"https:\/\/localhost:8080\/european" ==============> "http:\/\/localhost:8080\/european"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8080%2Feuropean" =======> "http%3A%2F%2Flocalhost%3A8080%2Feuropean"
+
+EVALUATE TABLE: "d7td68o_sbi_instagram_feeds_posts"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "d7td68o_sbi_instagram_posts"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "d7td68o_term_relationships"______________________[ROWS:    51][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/euwellness/public_html" ===================> "C:/xampp/htdocs/european"
+	SEARCH  2:"\/home2\/euwellness\/public_html" ================> "C:\/xampp\/htdocs\/european"
+	SEARCH  3:"%2Fhome2%2Feuwellness%2Fpublic_html" =============> "C%3A%2Fxampp%2Fhtdocs%2Feuropean"
+	SEARCH  4:"\home2\euwellness\public_html" ===================> "C:/xampp/htdocs/european"
+	SEARCH  5:"\\home2\\euwellness\\public_html" ================> "C:\/xampp\/htdocs\/european"
+	SEARCH  6:"%5Chome2%5Ceuwellness%5Cpublic_html" =============> "C%3A%2Fxampp%2Fhtdocs%2Feuropean"
+	SEARCH  7:"//europeanwellnessretreat.com" ===================> "//localhost:8080/european"
+	SEARCH  8:"\/\/europeanwellnessretreat.com" =================> "\/\/localhost:8080\/european"
+	SEARCH  9:"%2F%2Feuropeanwellnessretreat.com" ===============> "%2F%2Flocalhost%3A8080%2Feuropean"
+	SEARCH 10:"//www.europeanwellnessretreat.com" ===============> "//localhost:8080/european"
+	SEARCH 11:"\/\/www.europeanwellnessretreat.com" =============> "\/\/localhost:8080\/european"
+	SEARCH 12:"%2F%2Fwww.europeanwellnessretreat.com" ===========> "%2F%2Flocalhost%3A8080%2Feuropean"
+	SEARCH 13:"https://localhost:8080/european" =================> "http://localhost:8080/european"
+	SEARCH 14:"https:\/\/localhost:8080\/european" ==============> "http:\/\/localhost:8080\/european"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8080%2Feuropean" =======> "http%3A%2F%2Flocalhost%3A8080%2Feuropean"
+
+EVALUATE TABLE: "d7td68o_term_taxonomy"___________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/euwellness/public_html" ===================> "C:/xampp/htdocs/european"
+	SEARCH  2:"\/home2\/euwellness\/public_html" ================> "C:\/xampp\/htdocs\/european"
+	SEARCH  3:"%2Fhome2%2Feuwellness%2Fpublic_html" =============> "C%3A%2Fxampp%2Fhtdocs%2Feuropean"
+	SEARCH  4:"\home2\euwellness\public_html" ===================> "C:/xampp/htdocs/european"
+	SEARCH  5:"\\home2\\euwellness\\public_html" ================> "C:\/xampp\/htdocs\/european"
+	SEARCH  6:"%5Chome2%5Ceuwellness%5Cpublic_html" =============> "C%3A%2Fxampp%2Fhtdocs%2Feuropean"
+	SEARCH  7:"//europeanwellnessretreat.com" ===================> "//localhost:8080/european"
+	SEARCH  8:"\/\/europeanwellnessretreat.com" =================> "\/\/localhost:8080\/european"
+	SEARCH  9:"%2F%2Feuropeanwellnessretreat.com" ===============> "%2F%2Flocalhost%3A8080%2Feuropean"
+	SEARCH 10:"//www.europeanwellnessretreat.com" ===============> "//localhost:8080/european"
+	SEARCH 11:"\/\/www.europeanwellnessretreat.com" =============> "\/\/localhost:8080\/european"
+	SEARCH 12:"%2F%2Fwww.europeanwellnessretreat.com" ===========> "%2F%2Flocalhost%3A8080%2Feuropean"
+	SEARCH 13:"https://localhost:8080/european" =================> "http://localhost:8080/european"
+	SEARCH 14:"https:\/\/localhost:8080\/european" ==============> "http:\/\/localhost:8080\/european"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8080%2Feuropean" =======> "http%3A%2F%2Flocalhost%3A8080%2Feuropean"
+
+EVALUATE TABLE: "d7td68o_termmeta"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "d7td68o_terms"___________________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/euwellness/public_html" ===================> "C:/xampp/htdocs/european"
+	SEARCH  2:"\/home2\/euwellness\/public_html" ================> "C:\/xampp\/htdocs\/european"
+	SEARCH  3:"%2Fhome2%2Feuwellness%2Fpublic_html" =============> "C%3A%2Fxampp%2Fhtdocs%2Feuropean"
+	SEARCH  4:"\home2\euwellness\public_html" ===================> "C:/xampp/htdocs/european"
+	SEARCH  5:"\\home2\\euwellness\\public_html" ================> "C:\/xampp\/htdocs\/european"
+	SEARCH  6:"%5Chome2%5Ceuwellness%5Cpublic_html" =============> "C%3A%2Fxampp%2Fhtdocs%2Feuropean"
+	SEARCH  7:"//europeanwellnessretreat.com" ===================> "//localhost:8080/european"
+	SEARCH  8:"\/\/europeanwellnessretreat.com" =================> "\/\/localhost:8080\/european"
+	SEARCH  9:"%2F%2Feuropeanwellnessretreat.com" ===============> "%2F%2Flocalhost%3A8080%2Feuropean"
+	SEARCH 10:"//www.europeanwellnessretreat.com" ===============> "//localhost:8080/european"
+	SEARCH 11:"\/\/www.europeanwellnessretreat.com" =============> "\/\/localhost:8080\/european"
+	SEARCH 12:"%2F%2Fwww.europeanwellnessretreat.com" ===========> "%2F%2Flocalhost%3A8080%2Feuropean"
+	SEARCH 13:"https://localhost:8080/european" =================> "http://localhost:8080/european"
+	SEARCH 14:"https:\/\/localhost:8080\/european" ==============> "http:\/\/localhost:8080\/european"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8080%2Feuropean" =======> "http%3A%2F%2Flocalhost%3A8080%2Feuropean"
+
+EVALUATE TABLE: "d7td68o_usermeta"________________________________[ROWS:   138][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/euwellness/public_html" ===================> "C:/xampp/htdocs/european"
+	SEARCH  2:"\/home2\/euwellness\/public_html" ================> "C:\/xampp\/htdocs\/european"
+	SEARCH  3:"%2Fhome2%2Feuwellness%2Fpublic_html" =============> "C%3A%2Fxampp%2Fhtdocs%2Feuropean"
+	SEARCH  4:"\home2\euwellness\public_html" ===================> "C:/xampp/htdocs/european"
+	SEARCH  5:"\\home2\\euwellness\\public_html" ================> "C:\/xampp\/htdocs\/european"
+	SEARCH  6:"%5Chome2%5Ceuwellness%5Cpublic_html" =============> "C%3A%2Fxampp%2Fhtdocs%2Feuropean"
+	SEARCH  7:"//europeanwellnessretreat.com" ===================> "//localhost:8080/european"
+	SEARCH  8:"\/\/europeanwellnessretreat.com" =================> "\/\/localhost:8080\/european"
+	SEARCH  9:"%2F%2Feuropeanwellnessretreat.com" ===============> "%2F%2Flocalhost%3A8080%2Feuropean"
+	SEARCH 10:"//www.europeanwellnessretreat.com" ===============> "//localhost:8080/european"
+	SEARCH 11:"\/\/www.europeanwellnessretreat.com" =============> "\/\/localhost:8080\/european"
+	SEARCH 12:"%2F%2Fwww.europeanwellnessretreat.com" ===========> "%2F%2Flocalhost%3A8080%2Feuropean"
+	SEARCH 13:"https://localhost:8080/european" =================> "http://localhost:8080/european"
+	SEARCH 14:"https:\/\/localhost:8080\/european" ==============> "http:\/\/localhost:8080\/european"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8080%2Feuropean" =======> "http%3A%2F%2Flocalhost%3A8080%2Feuropean"
+
+EVALUATE TABLE: "d7td68o_users"___________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/euwellness/public_html" ===================> "C:/xampp/htdocs/european"
+	SEARCH  2:"\/home2\/euwellness\/public_html" ================> "C:\/xampp\/htdocs\/european"
+	SEARCH  3:"%2Fhome2%2Feuwellness%2Fpublic_html" =============> "C%3A%2Fxampp%2Fhtdocs%2Feuropean"
+	SEARCH  4:"\home2\euwellness\public_html" ===================> "C:/xampp/htdocs/european"
+	SEARCH  5:"\\home2\\euwellness\\public_html" ================> "C:\/xampp\/htdocs\/european"
+	SEARCH  6:"%5Chome2%5Ceuwellness%5Cpublic_html" =============> "C%3A%2Fxampp%2Fhtdocs%2Feuropean"
+	SEARCH  7:"//europeanwellnessretreat.com" ===================> "//localhost:8080/european"
+	SEARCH  8:"\/\/europeanwellnessretreat.com" =================> "\/\/localhost:8080\/european"
+	SEARCH  9:"%2F%2Feuropeanwellnessretreat.com" ===============> "%2F%2Flocalhost%3A8080%2Feuropean"
+	SEARCH 10:"//www.europeanwellnessretreat.com" ===============> "//localhost:8080/european"
+	SEARCH 11:"\/\/www.europeanwellnessretreat.com" =============> "\/\/localhost:8080\/european"
+	SEARCH 12:"%2F%2Fwww.europeanwellnessretreat.com" ===========> "%2F%2Flocalhost%3A8080%2Feuropean"
+	SEARCH 13:"https://localhost:8080/european" =================> "http://localhost:8080/european"
+	SEARCH 14:"https:\/\/localhost:8080\/european" ==============> "http:\/\/localhost:8080\/european"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8080%2Feuropean" =======> "http%3A%2F%2Flocalhost%3A8080%2Feuropean"
+
+EVALUATE TABLE: "d7td68o_yoast_indexable"_________________________[ROWS:   275][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/euwellness/public_html" ===================> "C:/xampp/htdocs/european"
+	SEARCH  2:"\/home2\/euwellness\/public_html" ================> "C:\/xampp\/htdocs\/european"
+	SEARCH  3:"%2Fhome2%2Feuwellness%2Fpublic_html" =============> "C%3A%2Fxampp%2Fhtdocs%2Feuropean"
+	SEARCH  4:"\home2\euwellness\public_html" ===================> "C:/xampp/htdocs/european"
+	SEARCH  5:"\\home2\\euwellness\\public_html" ================> "C:\/xampp\/htdocs\/european"
+	SEARCH  6:"%5Chome2%5Ceuwellness%5Cpublic_html" =============> "C%3A%2Fxampp%2Fhtdocs%2Feuropean"
+	SEARCH  7:"//europeanwellnessretreat.com" ===================> "//localhost:8080/european"
+	SEARCH  8:"\/\/europeanwellnessretreat.com" =================> "\/\/localhost:8080\/european"
+	SEARCH  9:"%2F%2Feuropeanwellnessretreat.com" ===============> "%2F%2Flocalhost%3A8080%2Feuropean"
+	SEARCH 10:"//www.europeanwellnessretreat.com" ===============> "//localhost:8080/european"
+	SEARCH 11:"\/\/www.europeanwellnessretreat.com" =============> "\/\/localhost:8080\/european"
+	SEARCH 12:"%2F%2Fwww.europeanwellnessretreat.com" ===========> "%2F%2Flocalhost%3A8080%2Feuropean"
+	SEARCH 13:"https://localhost:8080/european" =================> "http://localhost:8080/european"
+	SEARCH 14:"https:\/\/localhost:8080\/european" ==============> "http:\/\/localhost:8080\/european"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8080%2Feuropean" =======> "http%3A%2F%2Flocalhost%3A8080%2Feuropean"
+
+EVALUATE TABLE: "d7td68o_yoast_indexable_hierarchy"_______________[ROWS:   228][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/euwellness/public_html" ===================> "C:/xampp/htdocs/european"
+	SEARCH  2:"\/home2\/euwellness\/public_html" ================> "C:\/xampp\/htdocs\/european"
+	SEARCH  3:"%2Fhome2%2Feuwellness%2Fpublic_html" =============> "C%3A%2Fxampp%2Fhtdocs%2Feuropean"
+	SEARCH  4:"\home2\euwellness\public_html" ===================> "C:/xampp/htdocs/european"
+	SEARCH  5:"\\home2\\euwellness\\public_html" ================> "C:\/xampp\/htdocs\/european"
+	SEARCH  6:"%5Chome2%5Ceuwellness%5Cpublic_html" =============> "C%3A%2Fxampp%2Fhtdocs%2Feuropean"
+	SEARCH  7:"//europeanwellnessretreat.com" ===================> "//localhost:8080/european"
+	SEARCH  8:"\/\/europeanwellnessretreat.com" =================> "\/\/localhost:8080\/european"
+	SEARCH  9:"%2F%2Feuropeanwellnessretreat.com" ===============> "%2F%2Flocalhost%3A8080%2Feuropean"
+	SEARCH 10:"//www.europeanwellnessretreat.com" ===============> "//localhost:8080/european"
+	SEARCH 11:"\/\/www.europeanwellnessretreat.com" =============> "\/\/localhost:8080\/european"
+	SEARCH 12:"%2F%2Fwww.europeanwellnessretreat.com" ===========> "%2F%2Flocalhost%3A8080%2Feuropean"
+	SEARCH 13:"https://localhost:8080/european" =================> "http://localhost:8080/european"
+	SEARCH 14:"https:\/\/localhost:8080\/european" ==============> "http:\/\/localhost:8080\/european"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8080%2Feuropean" =======> "http%3A%2F%2Flocalhost%3A8080%2Feuropean"
+
+EVALUATE TABLE: "d7td68o_yoast_migrations"________________________[ROWS:    21][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/euwellness/public_html" ===================> "C:/xampp/htdocs/european"
+	SEARCH  2:"\/home2\/euwellness\/public_html" ================> "C:\/xampp\/htdocs\/european"
+	SEARCH  3:"%2Fhome2%2Feuwellness%2Fpublic_html" =============> "C%3A%2Fxampp%2Fhtdocs%2Feuropean"
+	SEARCH  4:"\home2\euwellness\public_html" ===================> "C:/xampp/htdocs/european"
+	SEARCH  5:"\\home2\\euwellness\\public_html" ================> "C:\/xampp\/htdocs\/european"
+	SEARCH  6:"%5Chome2%5Ceuwellness%5Cpublic_html" =============> "C%3A%2Fxampp%2Fhtdocs%2Feuropean"
+	SEARCH  7:"//europeanwellnessretreat.com" ===================> "//localhost:8080/european"
+	SEARCH  8:"\/\/europeanwellnessretreat.com" =================> "\/\/localhost:8080\/european"
+	SEARCH  9:"%2F%2Feuropeanwellnessretreat.com" ===============> "%2F%2Flocalhost%3A8080%2Feuropean"
+	SEARCH 10:"//www.europeanwellnessretreat.com" ===============> "//localhost:8080/european"
+	SEARCH 11:"\/\/www.europeanwellnessretreat.com" =============> "\/\/localhost:8080\/european"
+	SEARCH 12:"%2F%2Fwww.europeanwellnessretreat.com" ===========> "%2F%2Flocalhost%3A8080%2Feuropean"
+	SEARCH 13:"https://localhost:8080/european" =================> "http://localhost:8080/european"
+	SEARCH 14:"https:\/\/localhost:8080\/european" ==============> "http:\/\/localhost:8080\/european"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8080%2Feuropean" =======> "http%3A%2F%2Flocalhost%3A8080%2Feuropean"
+
+EVALUATE TABLE: "d7td68o_yoast_primary_term"______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/euwellness/public_html" ===================> "C:/xampp/htdocs/european"
+	SEARCH  2:"\/home2\/euwellness\/public_html" ================> "C:\/xampp\/htdocs\/european"
+	SEARCH  3:"%2Fhome2%2Feuwellness%2Fpublic_html" =============> "C%3A%2Fxampp%2Fhtdocs%2Feuropean"
+	SEARCH  4:"\home2\euwellness\public_html" ===================> "C:/xampp/htdocs/european"
+	SEARCH  5:"\\home2\\euwellness\\public_html" ================> "C:\/xampp\/htdocs\/european"
+	SEARCH  6:"%5Chome2%5Ceuwellness%5Cpublic_html" =============> "C%3A%2Fxampp%2Fhtdocs%2Feuropean"
+	SEARCH  7:"//europeanwellnessretreat.com" ===================> "//localhost:8080/european"
+	SEARCH  8:"\/\/europeanwellnessretreat.com" =================> "\/\/localhost:8080\/european"
+	SEARCH  9:"%2F%2Feuropeanwellnessretreat.com" ===============> "%2F%2Flocalhost%3A8080%2Feuropean"
+	SEARCH 10:"//www.europeanwellnessretreat.com" ===============> "//localhost:8080/european"
+	SEARCH 11:"\/\/www.europeanwellnessretreat.com" =============> "\/\/localhost:8080\/european"
+	SEARCH 12:"%2F%2Fwww.europeanwellnessretreat.com" ===========> "%2F%2Flocalhost%3A8080%2Feuropean"
+	SEARCH 13:"https://localhost:8080/european" =================> "http://localhost:8080/european"
+	SEARCH 14:"https:\/\/localhost:8080\/european" ==============> "http:\/\/localhost:8080\/european"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8080%2Feuropean" =======> "http%3A%2F%2Flocalhost%3A8080%2Feuropean"
+
+EVALUATE TABLE: "d7td68o_yoast_seo_links"_________________________[ROWS:    11][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/euwellness/public_html" ===================> "C:/xampp/htdocs/european"
+	SEARCH  2:"\/home2\/euwellness\/public_html" ================> "C:\/xampp\/htdocs\/european"
+	SEARCH  3:"%2Fhome2%2Feuwellness%2Fpublic_html" =============> "C%3A%2Fxampp%2Fhtdocs%2Feuropean"
+	SEARCH  4:"\home2\euwellness\public_html" ===================> "C:/xampp/htdocs/european"
+	SEARCH  5:"\\home2\\euwellness\\public_html" ================> "C:\/xampp\/htdocs\/european"
+	SEARCH  6:"%5Chome2%5Ceuwellness%5Cpublic_html" =============> "C%3A%2Fxampp%2Fhtdocs%2Feuropean"
+	SEARCH  7:"//europeanwellnessretreat.com" ===================> "//localhost:8080/european"
+	SEARCH  8:"\/\/europeanwellnessretreat.com" =================> "\/\/localhost:8080\/european"
+	SEARCH  9:"%2F%2Feuropeanwellnessretreat.com" ===============> "%2F%2Flocalhost%3A8080%2Feuropean"
+	SEARCH 10:"//www.europeanwellnessretreat.com" ===============> "//localhost:8080/european"
+	SEARCH 11:"\/\/www.europeanwellnessretreat.com" =============> "\/\/localhost:8080\/european"
+	SEARCH 12:"%2F%2Fwww.europeanwellnessretreat.com" ===========> "%2F%2Flocalhost%3A8080%2Feuropean"
+	SEARCH 13:"https://localhost:8080/european" =================> "http://localhost:8080/european"
+	SEARCH 14:"https:\/\/localhost:8080\/european" ==============> "http:\/\/localhost:8080\/european"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8080%2Feuropean" =======> "http%3A%2F%2Flocalhost%3A8080%2Feuropean"
+
+EVALUATE TABLE: "d7td68o_yoast_seo_meta"__________________________[ROWS:   130][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/euwellness/public_html" ===================> "C:/xampp/htdocs/european"
+	SEARCH  2:"\/home2\/euwellness\/public_html" ================> "C:\/xampp\/htdocs\/european"
+	SEARCH  3:"%2Fhome2%2Feuwellness%2Fpublic_html" =============> "C%3A%2Fxampp%2Fhtdocs%2Feuropean"
+	SEARCH  4:"\home2\euwellness\public_html" ===================> "C:/xampp/htdocs/european"
+	SEARCH  5:"\\home2\\euwellness\\public_html" ================> "C:\/xampp\/htdocs\/european"
+	SEARCH  6:"%5Chome2%5Ceuwellness%5Cpublic_html" =============> "C%3A%2Fxampp%2Fhtdocs%2Feuropean"
+	SEARCH  7:"//europeanwellnessretreat.com" ===================> "//localhost:8080/european"
+	SEARCH  8:"\/\/europeanwellnessretreat.com" =================> "\/\/localhost:8080\/european"
+	SEARCH  9:"%2F%2Feuropeanwellnessretreat.com" ===============> "%2F%2Flocalhost%3A8080%2Feuropean"
+	SEARCH 10:"//www.europeanwellnessretreat.com" ===============> "//localhost:8080/european"
+	SEARCH 11:"\/\/www.europeanwellnessretreat.com" =============> "\/\/localhost:8080\/european"
+	SEARCH 12:"%2F%2Fwww.europeanwellnessretreat.com" ===========> "%2F%2Flocalhost%3A8080%2Feuropean"
+	SEARCH 13:"https://localhost:8080/european" =================> "http://localhost:8080/european"
+	SEARCH 14:"https:\/\/localhost:8080\/european" ==============> "http:\/\/localhost:8080\/european"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8080%2Feuropean" =======> "http%3A%2F%2Flocalhost%3A8080%2Feuropean"
+--------------------------------------
+SCANNED:	Tables:22 	|	 Rows:4308 	|	 Cells:44346 
+UPDATED:	Tables:5 	|	 Rows:1114 	|	 Cells:1447 
+ERRORS:		0 
+RUNTIME:	1.493500 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 01:15:30 - RUNTIME: 1.6532 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================

@@ -1,0 +1,43 @@
+/*
+Theme Name: European Wellness Centre Manila Child Theme
+Theme URI: https: //ewcph.com/
+Description: This is a custom child theme for European Wellness Centre Manila
+Author: KREATIV Social Hub
+Author URI: http: //kreativsocialhub.com/
+Template: salient
+Version: 0.1
+Blue: #1c4489
+Yellow: #edaa1e
+*/@import url("https://use.typekit.net/ovn6les.css");
+
+h1,h2 {font-weight: 900;}
+
+h3,h4,h5 {font-weight: 300;}
+
+h1 {color: #1c4489;}
+
+body, p {font-weight: 300;font-style: normal;}
+
+b, strong {font-weight: 700!important;font-style: normal;}
+
+#footer-outer #copyright li a i, #footer-outer #copyright p {
+    font-size: 12px;
+}
+
+#footer-outer .span_5 {
+	width: 78%;
+}
+
+#footer-outer .span_7 {
+	width: 20%;
+}
+
+#header-outer #header-secondary-outer {
+	background-color: transparent!important;
+	border-bottom-color: rgb(136, 136, 136,0.6) !important;
+}
+
+#header-outer.[data-transparent-header="true"] #header-secondary-outer {
+    background: transparent!important;
+	border-bottom-color: rgba(255,255,255,0.6)!important;
+}
